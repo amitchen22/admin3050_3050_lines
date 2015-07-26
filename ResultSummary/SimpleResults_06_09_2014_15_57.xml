@@ -1,0 +1,4830 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CxXMLResults DeepLink=''>
+	<Query id='587' cweId='94' name='Code_Injection' group='Java.Cx.Java_High_Risk' Severity='Information'>
+	</Query>
+	<Query id='588' cweId='77' name='Command_Injection' group='Java.Cx.Java_High_Risk' Severity='Information'>
+	</Query>
+	<Query id='589' cweId='99' name='Connection_String_Injection' group='Java.Cx.Java_High_Risk' Severity='Information'>
+	</Query>
+	<Query id='590' cweId='90' name='LDAP_Injection' group='Java.Cx.Java_High_Risk' Severity='Information'>
+	</Query>
+	<Query id='591' cweId='79' name='Reflected_XSS_All_Clients' group='Java.Cx.Java_High_Risk' Severity='Information'>
+		<Result NodeId='15448' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java' Line='154' Column='37' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='0' SimilarityId='1819578471'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>37</Column>
+					<NodeId>15448</NodeId>
+					<Name>BookDetail_jsp.getParam.paramName</Name>
+					<Type />
+					<Length>9</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>36</Column>
+					<NodeId>15445</NodeId>
+					<Name>BookDetail_jsp.getParam.req.getParameter</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>12</Column>
+					<NodeId>15441</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>155</Line>
+					<Column>27</Column>
+					<NodeId>15456</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>156</Line>
+					<Column>12</Column>
+					<NodeId>15466</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>1019</Line>
+					<Column>28</Column>
+					<NodeId>20116</NodeId>
+					<Name>BookDetail_jsp.getParam</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>1019</Line>
+					<Column>9</Column>
+					<NodeId>20113</NodeId>
+					<Name>BookDetail_jsp.Rating_Show.pitem_id</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>1026</Line>
+					<Column>81</Column>
+					<NodeId>20154</NodeId>
+					<Name>BookDetail_jsp.Rating_Show.pitem_id</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>1026</Line>
+					<Column>7</Column>
+					<NodeId>20150</NodeId>
+					<Name>BookDetail_jsp.Rating_Show.primaryKeyParams</Name>
+					<Type />
+					<Length>16</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>1119</Line>
+					<Column>52</Column>
+					<NodeId>20772</NodeId>
+					<Name>BookDetail_jsp.Rating_Show.primaryKeyParams</Name>
+					<Type />
+					<Length>16</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>1119</Line>
+					<Column>16</Column>
+					<NodeId>20765</NodeId>
+					<Name>BookDetail_jsp.Rating_Show.out.print</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='15448' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java' Line='154' Column='37' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='1' SimilarityId='154376569'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>37</Column>
+					<NodeId>15448</NodeId>
+					<Name>BookDetail_jsp.getParam.paramName</Name>
+					<Type />
+					<Length>9</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>36</Column>
+					<NodeId>15445</NodeId>
+					<Name>BookDetail_jsp.getParam.req.getParameter</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>12</Column>
+					<NodeId>15441</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>155</Line>
+					<Column>27</Column>
+					<NodeId>15456</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>156</Line>
+					<Column>12</Column>
+					<NodeId>15466</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>786</Line>
+					<Column>29</Column>
+					<NodeId>18895</NodeId>
+					<Name>BookDetail_jsp.getParam</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>786</Line>
+					<Column>9</Column>
+					<NodeId>18892</NodeId>
+					<Name>BookDetail_jsp.Order_Show.porder_id</Name>
+					<Type />
+					<Length>9</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>793</Line>
+					<Column>82</Column>
+					<NodeId>18933</NodeId>
+					<Name>BookDetail_jsp.Order_Show.porder_id</Name>
+					<Type />
+					<Length>9</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>793</Line>
+					<Column>7</Column>
+					<NodeId>18929</NodeId>
+					<Name>BookDetail_jsp.Order_Show.primaryKeyParams</Name>
+					<Type />
+					<Length>16</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>858</Line>
+					<Column>52</Column>
+					<NodeId>19322</NodeId>
+					<Name>BookDetail_jsp.Order_Show.primaryKeyParams</Name>
+					<Type />
+					<Length>16</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>858</Line>
+					<Column>16</Column>
+					<NodeId>19315</NodeId>
+					<Name>BookDetail_jsp.Order_Show.out.print</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='15448' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java' Line='154' Column='37' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='2' SimilarityId='-1258282009'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>37</Column>
+					<NodeId>15448</NodeId>
+					<Name>BookDetail_jsp.getParam.paramName</Name>
+					<Type />
+					<Length>9</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>36</Column>
+					<NodeId>15445</NodeId>
+					<Name>BookDetail_jsp.getParam.req.getParameter</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>12</Column>
+					<NodeId>15441</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>155</Line>
+					<Column>27</Column>
+					<NodeId>15456</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>156</Line>
+					<Column>12</Column>
+					<NodeId>15466</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>527</Line>
+					<Column>28</Column>
+					<NodeId>17389</NodeId>
+					<Name>BookDetail_jsp.getParam</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>527</Line>
+					<Column>9</Column>
+					<NodeId>17386</NodeId>
+					<Name>BookDetail_jsp.Detail_Show.pitem_id</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>534</Line>
+					<Column>81</Column>
+					<NodeId>17427</NodeId>
+					<Name>BookDetail_jsp.Detail_Show.pitem_id</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>534</Line>
+					<Column>7</Column>
+					<NodeId>17423</NodeId>
+					<Name>BookDetail_jsp.Detail_Show.primaryKeyParams</Name>
+					<Type />
+					<Length>16</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>637</Line>
+					<Column>52</Column>
+					<NodeId>18251</NodeId>
+					<Name>BookDetail_jsp.Detail_Show.primaryKeyParams</Name>
+					<Type />
+					<Length>16</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>637</Line>
+					<Column>16</Column>
+					<NodeId>18244</NodeId>
+					<Name>BookDetail_jsp.Detail_Show.out.print</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+	</Query>
+	<Query id='592' cweId='99' name='Resource_Injection' group='Java.Cx.Java_High_Risk' Severity='Information'>
+	</Query>
+	<Query id='593' cweId='89' name='Second_Order_SQL_Injection' group='Java.Cx.Java_High_Risk' Severity='Information'>
+		<Result NodeId='79034' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java' Line='49' Column='46' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='0' SimilarityId='576752403'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>46</Column>
+					<NodeId>79034</NodeId>
+					<Name>Login_jsp.openrs.stat.executeQuery</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>24</Column>
+					<NodeId>79030</NodeId>
+					<Name>Login_jsp.openrs.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>50</Line>
+					<Column>13</Column>
+					<NodeId>79039</NodeId>
+					<Name>Login_jsp.openrs.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>442</Line>
+					<Column>22</Column>
+					<NodeId>81240</NodeId>
+					<Name>Login_jsp.openrs</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>442</Line>
+					<Column>11</Column>
+					<NodeId>81237</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>444</Line>
+					<Column>16</Column>
+					<NodeId>81269</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>446</Line>
+					<Column>44</Column>
+					<NodeId>81283</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>446</Line>
+					<Column>56</Column>
+					<NodeId>81286</NodeId>
+					<Name>Login_jsp.LoginAction.rs.getString</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>517</Line>
+					<Column>104</Column>
+					<NodeId>81725</NodeId>
+					<Name>Login_jsp.Login_Show.session.getAttribute</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>53</Line>
+					<Column>78</Column>
+					<NodeId>79050</NodeId>
+					<Name>Login_jsp.dLookUp.where</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>59</Line>
+					<Column>103</Column>
+					<NodeId>79102</NodeId>
+					<Name>Login_jsp.dLookUp.where</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>48</Line>
+					<Column>61</Column>
+					<NodeId>79025</NodeId>
+					<Name>Login_jsp.openrs.sql</Name>
+					<Type />
+					<Length>3</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>47</Column>
+					<NodeId>79037</NodeId>
+					<Name>Login_jsp.openrs.sql</Name>
+					<Type />
+					<Length>3</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='79034' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java' Line='49' Column='46' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='1' SimilarityId='1760896879'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>46</Column>
+					<NodeId>79034</NodeId>
+					<Name>Login_jsp.openrs.stat.executeQuery</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>24</Column>
+					<NodeId>79030</NodeId>
+					<Name>Login_jsp.openrs.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>50</Line>
+					<Column>13</Column>
+					<NodeId>79039</NodeId>
+					<Name>Login_jsp.openrs.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>442</Line>
+					<Column>22</Column>
+					<NodeId>81240</NodeId>
+					<Name>Login_jsp.openrs</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>442</Line>
+					<Column>11</Column>
+					<NodeId>81237</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>444</Line>
+					<Column>16</Column>
+					<NodeId>81269</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>446</Line>
+					<Column>44</Column>
+					<NodeId>81283</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>446</Line>
+					<Column>56</Column>
+					<NodeId>81286</NodeId>
+					<Name>Login_jsp.LoginAction.rs.getString</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>688</Line>
+					<Column>48</Column>
+					<NodeId>18466</NodeId>
+					<Name>BookDetail_jsp.OrderAction.session.getAttribute</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>688</Line>
+					<Column>7</Column>
+					<NodeId>18460</NodeId>
+					<Name>BookDetail_jsp.OrderAction.fldUserID</Name>
+					<Type />
+					<Length>9</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>721</Line>
+					<Column>23</Column>
+					<NodeId>18594</NodeId>
+					<Name>BookDetail_jsp.OrderAction.fldUserID</Name>
+					<Type />
+					<Length>9</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>203</Line>
+					<Column>23</Column>
+					<NodeId>15725</NodeId>
+					<Name>BookDetail_jsp.toSQL.value</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>205</Line>
+					<Column>20</Column>
+					<NodeId>15741</NodeId>
+					<Name>BookDetail_jsp.toSQL.value</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>205</Line>
+					<Column>12</Column>
+					<NodeId>15740</NodeId>
+					<Name>BookDetail_jsp.toSQL.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>236</Line>
+					<Column>12</Column>
+					<NodeId>15882</NodeId>
+					<Name>BookDetail_jsp.toSQL.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>721</Line>
+					<Column>22</Column>
+					<NodeId>18591</NodeId>
+					<Name>BookDetail_jsp.toSQL</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>715</Line>
+					<Column>13</Column>
+					<NodeId>18573</NodeId>
+					<Name>BookDetail_jsp.OrderAction.sSQL</Name>
+					<Type />
+					<Length>4</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>731</Line>
+					<Column>28</Column>
+					<NodeId>18640</NodeId>
+					<Name>BookDetail_jsp.OrderAction.sSQL</Name>
+					<Type />
+					<Length>4</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='79034' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java' Line='49' Column='46' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='2' SimilarityId='-533510144'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>46</Column>
+					<NodeId>79034</NodeId>
+					<Name>Login_jsp.openrs.stat.executeQuery</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>24</Column>
+					<NodeId>79030</NodeId>
+					<Name>Login_jsp.openrs.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>50</Line>
+					<Column>13</Column>
+					<NodeId>79039</NodeId>
+					<Name>Login_jsp.openrs.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>442</Line>
+					<Column>22</Column>
+					<NodeId>81240</NodeId>
+					<Name>Login_jsp.openrs</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>442</Line>
+					<Column>11</Column>
+					<NodeId>81237</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>444</Line>
+					<Column>16</Column>
+					<NodeId>81269</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>446</Line>
+					<Column>44</Column>
+					<NodeId>81283</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>446</Line>
+					<Column>56</Column>
+					<NodeId>81286</NodeId>
+					<Name>Login_jsp.LoginAction.rs.getString</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MyInfo_jsp.java</FileName>
+					<Line>612</Line>
+					<Column>56</Column>
+					<NodeId>99833</NodeId>
+					<Name>MyInfo_jsp.Form_Show.session.getAttribute</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MyInfo_jsp.java</FileName>
+					<Line>612</Line>
+					<Column>14</Column>
+					<NodeId>99827</NodeId>
+					<Name>MyInfo_jsp.Form_Show.pmember_id</Name>
+					<Type />
+					<Length>10</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MyInfo_jsp.java</FileName>
+					<Line>615</Line>
+					<Column>38</Column>
+					<NodeId>99860</NodeId>
+					<Name>MyInfo_jsp.Form_Show.pmember_id</Name>
+					<Type />
+					<Length>10</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MyInfo_jsp.java</FileName>
+					<Line>208</Line>
+					<Column>23</Column>
+					<NodeId>97694</NodeId>
+					<Name>MyInfo_jsp.toSQL.value</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MyInfo_jsp.java</FileName>
+					<Line>210</Line>
+					<Column>20</Column>
+					<NodeId>97710</NodeId>
+					<Name>MyInfo_jsp.toSQL.value</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MyInfo_jsp.java</FileName>
+					<Line>210</Line>
+					<Column>12</Column>
+					<NodeId>97709</NodeId>
+					<Name>MyInfo_jsp.toSQL.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MyInfo_jsp.java</FileName>
+					<Line>241</Line>
+					<Column>12</Column>
+					<NodeId>97851</NodeId>
+					<Name>MyInfo_jsp.toSQL.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MyInfo_jsp.java</FileName>
+					<Line>615</Line>
+					<Column>37</Column>
+					<NodeId>99857</NodeId>
+					<Name>MyInfo_jsp.toSQL</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MyInfo_jsp.java</FileName>
+					<Line>615</Line>
+					<Column>7</Column>
+					<NodeId>99852</NodeId>
+					<Name>MyInfo_jsp.Form_Show.sWhere</Name>
+					<Type />
+					<Length>6</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MyInfo_jsp.java</FileName>
+					<Line>618</Line>
+					<Column>47</Column>
+					<NodeId>99876</NodeId>
+					<Name>MyInfo_jsp.Form_Show.sWhere</Name>
+					<Type />
+					<Length>6</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MyInfo_jsp.java</FileName>
+					<Line>618</Line>
+					<Column>7</Column>
+					<NodeId>99873</NodeId>
+					<Name>MyInfo_jsp.Form_Show.sSQL</Name>
+					<Type />
+					<Length>4</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MyInfo_jsp.java</FileName>
+					<Line>634</Line>
+					<Column>28</Column>
+					<NodeId>99968</NodeId>
+					<Name>MyInfo_jsp.Form_Show.sSQL</Name>
+					<Type />
+					<Length>4</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MyInfo_jsp.java</FileName>
+					<Line>48</Line>
+					<Column>61</Column>
+					<NodeId>96738</NodeId>
+					<Name>MyInfo_jsp.openrs.sql</Name>
+					<Type />
+					<Length>3</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MyInfo_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>47</Column>
+					<NodeId>96750</NodeId>
+					<Name>MyInfo_jsp.openrs.sql</Name>
+					<Type />
+					<Length>3</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='79034' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java' Line='49' Column='46' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='3' SimilarityId='1180040314'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>46</Column>
+					<NodeId>79034</NodeId>
+					<Name>Login_jsp.openrs.stat.executeQuery</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>24</Column>
+					<NodeId>79030</NodeId>
+					<Name>Login_jsp.openrs.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>50</Line>
+					<Column>13</Column>
+					<NodeId>79039</NodeId>
+					<Name>Login_jsp.openrs.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>442</Line>
+					<Column>22</Column>
+					<NodeId>81240</NodeId>
+					<Name>Login_jsp.openrs</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>442</Line>
+					<Column>11</Column>
+					<NodeId>81237</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>444</Line>
+					<Column>16</Column>
+					<NodeId>81269</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>446</Line>
+					<Column>44</Column>
+					<NodeId>81283</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>446</Line>
+					<Column>56</Column>
+					<NodeId>81286</NodeId>
+					<Name>Login_jsp.LoginAction.rs.getString</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp - Copy.java</FileName>
+					<Line>444</Line>
+					<Column>43</Column>
+					<NodeId>117046</NodeId>
+					<Name>ShoppingCart_jsp.Items_Show.session.getAttribute</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp - Copy.java</FileName>
+					<Line>444</Line>
+					<Column>5</Column>
+					<NodeId>117040</NodeId>
+					<Name>ShoppingCart_jsp.Items_Show.pUserID</Name>
+					<Type />
+					<Length>7</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp - Copy.java</FileName>
+					<Line>449</Line>
+					<Column>30</Column>
+					<NodeId>117072</NodeId>
+					<Name>ShoppingCart_jsp.Items_Show.pUserID</Name>
+					<Type />
+					<Length>7</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp - Copy.java</FileName>
+					<Line>452</Line>
+					<Column>34</Column>
+					<NodeId>117088</NodeId>
+					<Name>ShoppingCart_jsp.Items_Show.pUserID</Name>
+					<Type />
+					<Length>7</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp - Copy.java</FileName>
+					<Line>452</Line>
+					<Column>9</Column>
+					<NodeId>117085</NodeId>
+					<Name>ShoppingCart_jsp.Items_Show.sWhere</Name>
+					<Type />
+					<Length>6</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp - Copy.java</FileName>
+					<Line>460</Line>
+					<Column>147</Column>
+					<NodeId>117111</NodeId>
+					<Name>ShoppingCart_jsp.Items_Show.sWhere</Name>
+					<Type />
+					<Length>6</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp - Copy.java</FileName>
+					<Line>460</Line>
+					<Column>3</Column>
+					<NodeId>117107</NodeId>
+					<Name>ShoppingCart_jsp.Items_Show.sSQL</Name>
+					<Type />
+					<Length>4</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp - Copy.java</FileName>
+					<Line>488</Line>
+					<Column>24</Column>
+					<NodeId>117199</NodeId>
+					<Name>ShoppingCart_jsp.Items_Show.sSQL</Name>
+					<Type />
+					<Length>4</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp - Copy.java</FileName>
+					<Line>48</Line>
+					<Column>61</Column>
+					<NodeId>114858</NodeId>
+					<Name>ShoppingCart_jsp.openrs.sql</Name>
+					<Type />
+					<Length>3</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp - Copy.java</FileName>
+					<Line>49</Line>
+					<Column>47</Column>
+					<NodeId>114870</NodeId>
+					<Name>ShoppingCart_jsp.openrs.sql</Name>
+					<Type />
+					<Length>3</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='79034' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java' Line='49' Column='46' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='4' SimilarityId='-68783570'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>46</Column>
+					<NodeId>79034</NodeId>
+					<Name>Login_jsp.openrs.stat.executeQuery</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>24</Column>
+					<NodeId>79030</NodeId>
+					<Name>Login_jsp.openrs.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>50</Line>
+					<Column>13</Column>
+					<NodeId>79039</NodeId>
+					<Name>Login_jsp.openrs.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>442</Line>
+					<Column>22</Column>
+					<NodeId>81240</NodeId>
+					<Name>Login_jsp.openrs</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>442</Line>
+					<Column>11</Column>
+					<NodeId>81237</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>444</Line>
+					<Column>16</Column>
+					<NodeId>81269</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>446</Line>
+					<Column>44</Column>
+					<NodeId>81283</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>446</Line>
+					<Column>56</Column>
+					<NodeId>81286</NodeId>
+					<Name>Login_jsp.LoginAction.rs.getString</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp.java</FileName>
+					<Line>444</Line>
+					<Column>43</Column>
+					<NodeId>122194</NodeId>
+					<Name>ShoppingCart_jsp.Items_Show.session.getAttribute</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp.java</FileName>
+					<Line>444</Line>
+					<Column>5</Column>
+					<NodeId>122188</NodeId>
+					<Name>ShoppingCart_jsp.Items_Show.pUserID</Name>
+					<Type />
+					<Length>7</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp.java</FileName>
+					<Line>449</Line>
+					<Column>30</Column>
+					<NodeId>122220</NodeId>
+					<Name>ShoppingCart_jsp.Items_Show.pUserID</Name>
+					<Type />
+					<Length>7</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp.java</FileName>
+					<Line>452</Line>
+					<Column>34</Column>
+					<NodeId>122236</NodeId>
+					<Name>ShoppingCart_jsp.Items_Show.pUserID</Name>
+					<Type />
+					<Length>7</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp.java</FileName>
+					<Line>452</Line>
+					<Column>9</Column>
+					<NodeId>122233</NodeId>
+					<Name>ShoppingCart_jsp.Items_Show.sWhere</Name>
+					<Type />
+					<Length>6</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp.java</FileName>
+					<Line>460</Line>
+					<Column>147</Column>
+					<NodeId>122259</NodeId>
+					<Name>ShoppingCart_jsp.Items_Show.sWhere</Name>
+					<Type />
+					<Length>6</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp.java</FileName>
+					<Line>460</Line>
+					<Column>3</Column>
+					<NodeId>122255</NodeId>
+					<Name>ShoppingCart_jsp.Items_Show.sSQL</Name>
+					<Type />
+					<Length>4</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp.java</FileName>
+					<Line>488</Line>
+					<Column>24</Column>
+					<NodeId>122347</NodeId>
+					<Name>ShoppingCart_jsp.Items_Show.sSQL</Name>
+					<Type />
+					<Length>4</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp.java</FileName>
+					<Line>48</Line>
+					<Column>61</Column>
+					<NodeId>120006</NodeId>
+					<Name>ShoppingCart_jsp.openrs.sql</Name>
+					<Type />
+					<Length>3</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>47</Column>
+					<NodeId>120018</NodeId>
+					<Name>ShoppingCart_jsp.openrs.sql</Name>
+					<Type />
+					<Length>3</Length>
+				</PathNode>
+			</Path>
+		</Result>
+	</Query>
+	<Query id='594' cweId='89' name='SQL_Injection' group='Java.Cx.Java_High_Risk' Severity='Information'>
+		<Result NodeId='15448' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java' Line='154' Column='37' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='0' SimilarityId='-308063535'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>37</Column>
+					<NodeId>15448</NodeId>
+					<Name>BookDetail_jsp.getParam.paramName</Name>
+					<Type />
+					<Length>9</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>36</Column>
+					<NodeId>15445</NodeId>
+					<Name>BookDetail_jsp.getParam.req.getParameter</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>12</Column>
+					<NodeId>15441</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>155</Line>
+					<Column>27</Column>
+					<NodeId>15456</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>156</Line>
+					<Column>12</Column>
+					<NodeId>15466</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>690</Line>
+					<Column>28</Column>
+					<NodeId>18486</NodeId>
+					<Name>BookDetail_jsp.getParam</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>690</Line>
+					<Column>7</Column>
+					<NodeId>18483</NodeId>
+					<Name>BookDetail_jsp.OrderAction.flditem_id</Name>
+					<Type />
+					<Length>10</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>723</Line>
+					<Column>23</Column>
+					<NodeId>18612</NodeId>
+					<Name>BookDetail_jsp.OrderAction.flditem_id</Name>
+					<Type />
+					<Length>10</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>203</Line>
+					<Column>23</Column>
+					<NodeId>15725</NodeId>
+					<Name>BookDetail_jsp.toSQL.value</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>205</Line>
+					<Column>20</Column>
+					<NodeId>15741</NodeId>
+					<Name>BookDetail_jsp.toSQL.value</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>205</Line>
+					<Column>12</Column>
+					<NodeId>15740</NodeId>
+					<Name>BookDetail_jsp.toSQL.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>236</Line>
+					<Column>12</Column>
+					<NodeId>15882</NodeId>
+					<Name>BookDetail_jsp.toSQL.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>723</Line>
+					<Column>22</Column>
+					<NodeId>18609</NodeId>
+					<Name>BookDetail_jsp.toSQL</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>715</Line>
+					<Column>13</Column>
+					<NodeId>18573</NodeId>
+					<Name>BookDetail_jsp.OrderAction.sSQL</Name>
+					<Type />
+					<Length>4</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>731</Line>
+					<Column>28</Column>
+					<NodeId>18640</NodeId>
+					<Name>BookDetail_jsp.OrderAction.sSQL</Name>
+					<Type />
+					<Length>4</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>731</Line>
+					<Column>27</Column>
+					<NodeId>18637</NodeId>
+					<Name>BookDetail_jsp.OrderAction.stat.executeUpdate</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='15448' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java' Line='154' Column='37' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='1' SimilarityId='-1164448830'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>37</Column>
+					<NodeId>15448</NodeId>
+					<Name>BookDetail_jsp.getParam.paramName</Name>
+					<Type />
+					<Length>9</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>36</Column>
+					<NodeId>15445</NodeId>
+					<Name>BookDetail_jsp.getParam.req.getParameter</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>12</Column>
+					<NodeId>15441</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>155</Line>
+					<Column>27</Column>
+					<NodeId>15456</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>156</Line>
+					<Column>12</Column>
+					<NodeId>15466</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>519</Line>
+					<Column>28</Column>
+					<NodeId>17337</NodeId>
+					<Name>BookDetail_jsp.getParam</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>519</Line>
+					<Column>9</Column>
+					<NodeId>17334</NodeId>
+					<Name>BookDetail_jsp.Detail_Show.pitem_id</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>533</Line>
+					<Column>36</Column>
+					<NodeId>17418</NodeId>
+					<Name>BookDetail_jsp.Detail_Show.pitem_id</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>203</Line>
+					<Column>23</Column>
+					<NodeId>15725</NodeId>
+					<Name>BookDetail_jsp.toSQL.value</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>205</Line>
+					<Column>20</Column>
+					<NodeId>15741</NodeId>
+					<Name>BookDetail_jsp.toSQL.value</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>205</Line>
+					<Column>12</Column>
+					<NodeId>15740</NodeId>
+					<Name>BookDetail_jsp.toSQL.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>236</Line>
+					<Column>12</Column>
+					<NodeId>15882</NodeId>
+					<Name>BookDetail_jsp.toSQL.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>533</Line>
+					<Column>35</Column>
+					<NodeId>17415</NodeId>
+					<Name>BookDetail_jsp.toSQL</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>533</Line>
+					<Column>7</Column>
+					<NodeId>17410</NodeId>
+					<Name>BookDetail_jsp.Detail_Show.sWhere</Name>
+					<Type />
+					<Length>6</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>536</Line>
+					<Column>45</Column>
+					<NodeId>17434</NodeId>
+					<Name>BookDetail_jsp.Detail_Show.sWhere</Name>
+					<Type />
+					<Length>6</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>536</Line>
+					<Column>7</Column>
+					<NodeId>17431</NodeId>
+					<Name>BookDetail_jsp.Detail_Show.sSQL</Name>
+					<Type />
+					<Length>4</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>552</Line>
+					<Column>28</Column>
+					<NodeId>17526</NodeId>
+					<Name>BookDetail_jsp.Detail_Show.sSQL</Name>
+					<Type />
+					<Length>4</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>48</Line>
+					<Column>61</Column>
+					<NodeId>14834</NodeId>
+					<Name>BookDetail_jsp.openrs.sql</Name>
+					<Type />
+					<Length>3</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>47</Column>
+					<NodeId>14846</NodeId>
+					<Name>BookDetail_jsp.openrs.sql</Name>
+					<Type />
+					<Length>3</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>46</Column>
+					<NodeId>14843</NodeId>
+					<Name>BookDetail_jsp.openrs.stat.executeQuery</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='15448' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java' Line='154' Column='37' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='2' SimilarityId='-2048820838'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>37</Column>
+					<NodeId>15448</NodeId>
+					<Name>BookDetail_jsp.getParam.paramName</Name>
+					<Type />
+					<Length>9</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>36</Column>
+					<NodeId>15445</NodeId>
+					<Name>BookDetail_jsp.getParam.req.getParameter</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>12</Column>
+					<NodeId>15441</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>155</Line>
+					<Column>27</Column>
+					<NodeId>15456</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>156</Line>
+					<Column>12</Column>
+					<NodeId>15466</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>944</Line>
+					<Column>131</Column>
+					<NodeId>19720</NodeId>
+					<Name>BookDetail_jsp.getParam</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>944</Line>
+					<Column>1</Column>
+					<NodeId>19704</NodeId>
+					<Name>BookDetail_jsp.RatingAction.sSQL</Name>
+					<Type />
+					<Length>4</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>958</Line>
+					<Column>28</Column>
+					<NodeId>19794</NodeId>
+					<Name>BookDetail_jsp.RatingAction.sSQL</Name>
+					<Type />
+					<Length>4</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>958</Line>
+					<Column>27</Column>
+					<NodeId>19791</NodeId>
+					<Name>BookDetail_jsp.RatingAction.stat.executeUpdate</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+	</Query>
+	<Query id='595' cweId='79' name='Stored_XSS' group='Java.Cx.Java_High_Risk' Severity='Information'>
+		<Result NodeId='79034' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java' Line='49' Column='46' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='0' SimilarityId='150797868'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>46</Column>
+					<NodeId>79034</NodeId>
+					<Name>Login_jsp.openrs.stat.executeQuery</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>24</Column>
+					<NodeId>79030</NodeId>
+					<Name>Login_jsp.openrs.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>50</Line>
+					<Column>13</Column>
+					<NodeId>79039</NodeId>
+					<Name>Login_jsp.openrs.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>442</Line>
+					<Column>22</Column>
+					<NodeId>81240</NodeId>
+					<Name>Login_jsp.openrs</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>442</Line>
+					<Column>11</Column>
+					<NodeId>81237</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>444</Line>
+					<Column>16</Column>
+					<NodeId>81269</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>446</Line>
+					<Column>44</Column>
+					<NodeId>81283</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>446</Line>
+					<Column>56</Column>
+					<NodeId>81286</NodeId>
+					<Name>Login_jsp.LoginAction.rs.getString</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MyInfo_jsp.java</FileName>
+					<Line>612</Line>
+					<Column>56</Column>
+					<NodeId>99833</NodeId>
+					<Name>MyInfo_jsp.Form_Show.session.getAttribute</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MyInfo_jsp.java</FileName>
+					<Line>612</Line>
+					<Column>14</Column>
+					<NodeId>99827</NodeId>
+					<Name>MyInfo_jsp.Form_Show.pmember_id</Name>
+					<Type />
+					<Length>10</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MyInfo_jsp.java</FileName>
+					<Line>616</Line>
+					<Column>83</Column>
+					<NodeId>99869</NodeId>
+					<Name>MyInfo_jsp.Form_Show.pmember_id</Name>
+					<Type />
+					<Length>10</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MyInfo_jsp.java</FileName>
+					<Line>616</Line>
+					<Column>7</Column>
+					<NodeId>99865</NodeId>
+					<Name>MyInfo_jsp.Form_Show.primaryKeyParams</Name>
+					<Type />
+					<Length>16</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MyInfo_jsp.java</FileName>
+					<Line>736</Line>
+					<Column>52</Column>
+					<NodeId>100783</NodeId>
+					<Name>MyInfo_jsp.Form_Show.primaryKeyParams</Name>
+					<Type />
+					<Length>16</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MyInfo_jsp.java</FileName>
+					<Line>736</Line>
+					<Column>16</Column>
+					<NodeId>100776</NodeId>
+					<Name>MyInfo_jsp.Form_Show.out.print</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='79034' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java' Line='49' Column='46' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='1' SimilarityId='-41926219'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>46</Column>
+					<NodeId>79034</NodeId>
+					<Name>Login_jsp.openrs.stat.executeQuery</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>24</Column>
+					<NodeId>79030</NodeId>
+					<Name>Login_jsp.openrs.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>50</Line>
+					<Column>13</Column>
+					<NodeId>79039</NodeId>
+					<Name>Login_jsp.openrs.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>442</Line>
+					<Column>22</Column>
+					<NodeId>81240</NodeId>
+					<Name>Login_jsp.openrs</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>442</Line>
+					<Column>11</Column>
+					<NodeId>81237</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>444</Line>
+					<Column>16</Column>
+					<NodeId>81269</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>446</Line>
+					<Column>44</Column>
+					<NodeId>81283</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>446</Line>
+					<Column>56</Column>
+					<NodeId>81286</NodeId>
+					<Name>Login_jsp.LoginAction.rs.getString</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>517</Line>
+					<Column>104</Column>
+					<NodeId>81725</NodeId>
+					<Name>Login_jsp.Login_Show.session.getAttribute</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>53</Line>
+					<Column>78</Column>
+					<NodeId>79050</NodeId>
+					<Name>Login_jsp.dLookUp.where</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>59</Line>
+					<Column>103</Column>
+					<NodeId>79102</NodeId>
+					<Name>Login_jsp.dLookUp.where</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>48</Line>
+					<Column>61</Column>
+					<NodeId>79025</NodeId>
+					<Name>Login_jsp.openrs.sql</Name>
+					<Type />
+					<Length>3</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>47</Column>
+					<NodeId>79037</NodeId>
+					<Name>Login_jsp.openrs.sql</Name>
+					<Type />
+					<Length>3</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>46</Column>
+					<NodeId>79034</NodeId>
+					<Name>Login_jsp.openrs.stat.executeQuery</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>24</Column>
+					<NodeId>79030</NodeId>
+					<Name>Login_jsp.openrs.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>50</Line>
+					<Column>13</Column>
+					<NodeId>79039</NodeId>
+					<Name>Login_jsp.openrs.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>59</Line>
+					<Column>43</Column>
+					<NodeId>79087</NodeId>
+					<Name>Login_jsp.openrs</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>59</Line>
+					<Column>26</Column>
+					<NodeId>79084</NodeId>
+					<Name>Login_jsp.dLookUp.rsLookUp</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>60</Line>
+					<Column>13</Column>
+					<NodeId>79107</NodeId>
+					<Name>Login_jsp.dLookUp.rsLookUp</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>66</Line>
+					<Column>20</Column>
+					<NodeId>79136</NodeId>
+					<Name>Login_jsp.dLookUp.rsLookUp</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>66</Line>
+					<Column>38</Column>
+					<NodeId>79139</NodeId>
+					<Name>Login_jsp.dLookUp.rsLookUp.getString</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>66</Line>
+					<Column>14</Column>
+					<NodeId>79135</NodeId>
+					<Name>Login_jsp.dLookUp.res</Name>
+					<Type />
+					<Length>3</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>70</Line>
+					<Column>34</Column>
+					<NodeId>79167</NodeId>
+					<Name>Login_jsp.dLookUp.res</Name>
+					<Type />
+					<Length>3</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>517</Line>
+					<Column>33</Column>
+					<NodeId>81711</NodeId>
+					<Name>Login_jsp.dLookUp</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>517</Line>
+					<Column>16</Column>
+					<NodeId>81708</NodeId>
+					<Name>Login_jsp.Login_Show.sUserID</Name>
+					<Type />
+					<Length>7</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>518</Line>
+					<Column>136</Column>
+					<NodeId>81740</NodeId>
+					<Name>Login_jsp.Login_Show.sUserID</Name>
+					<Type />
+					<Length>7</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>518</Line>
+					<Column>18</Column>
+					<NodeId>81733</NodeId>
+					<Name>Login_jsp.Login_Show.out.print</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='79034' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java' Line='49' Column='46' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='2' SimilarityId='-13748878'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>46</Column>
+					<NodeId>79034</NodeId>
+					<Name>Login_jsp.openrs.stat.executeQuery</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>24</Column>
+					<NodeId>79030</NodeId>
+					<Name>Login_jsp.openrs.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>50</Line>
+					<Column>13</Column>
+					<NodeId>79039</NodeId>
+					<Name>Login_jsp.openrs.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>442</Line>
+					<Column>22</Column>
+					<NodeId>81240</NodeId>
+					<Name>Login_jsp.openrs</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>442</Line>
+					<Column>11</Column>
+					<NodeId>81237</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>444</Line>
+					<Column>16</Column>
+					<NodeId>81269</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>446</Line>
+					<Column>44</Column>
+					<NodeId>81283</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>446</Line>
+					<Column>56</Column>
+					<NodeId>81286</NodeId>
+					<Name>Login_jsp.LoginAction.rs.getString</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp - Copy.java</FileName>
+					<Line>749</Line>
+					<Column>56</Column>
+					<NodeId>118499</NodeId>
+					<Name>ShoppingCart_jsp.Member_Show.session.getAttribute</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp - Copy.java</FileName>
+					<Line>749</Line>
+					<Column>14</Column>
+					<NodeId>118493</NodeId>
+					<Name>ShoppingCart_jsp.Member_Show.pmember_id</Name>
+					<Type />
+					<Length>10</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp - Copy.java</FileName>
+					<Line>753</Line>
+					<Column>83</Column>
+					<NodeId>118535</NodeId>
+					<Name>ShoppingCart_jsp.Member_Show.pmember_id</Name>
+					<Type />
+					<Length>10</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp - Copy.java</FileName>
+					<Line>753</Line>
+					<Column>7</Column>
+					<NodeId>118531</NodeId>
+					<Name>ShoppingCart_jsp.Member_Show.primaryKeyParams</Name>
+					<Type />
+					<Length>16</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp - Copy.java</FileName>
+					<Line>842</Line>
+					<Column>52</Column>
+					<NodeId>119235</NodeId>
+					<Name>ShoppingCart_jsp.Member_Show.primaryKeyParams</Name>
+					<Type />
+					<Length>16</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp - Copy.java</FileName>
+					<Line>842</Line>
+					<Column>16</Column>
+					<NodeId>119228</NodeId>
+					<Name>ShoppingCart_jsp.Member_Show.out.print</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='79034' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java' Line='49' Column='46' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='3' SimilarityId='46518590'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>46</Column>
+					<NodeId>79034</NodeId>
+					<Name>Login_jsp.openrs.stat.executeQuery</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>24</Column>
+					<NodeId>79030</NodeId>
+					<Name>Login_jsp.openrs.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>50</Line>
+					<Column>13</Column>
+					<NodeId>79039</NodeId>
+					<Name>Login_jsp.openrs.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>442</Line>
+					<Column>22</Column>
+					<NodeId>81240</NodeId>
+					<Name>Login_jsp.openrs</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>442</Line>
+					<Column>11</Column>
+					<NodeId>81237</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>444</Line>
+					<Column>16</Column>
+					<NodeId>81269</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>446</Line>
+					<Column>44</Column>
+					<NodeId>81283</NodeId>
+					<Name>Login_jsp.LoginAction.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>446</Line>
+					<Column>56</Column>
+					<NodeId>81286</NodeId>
+					<Name>Login_jsp.LoginAction.rs.getString</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp.java</FileName>
+					<Line>749</Line>
+					<Column>56</Column>
+					<NodeId>123647</NodeId>
+					<Name>ShoppingCart_jsp.Member_Show.session.getAttribute</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp.java</FileName>
+					<Line>749</Line>
+					<Column>14</Column>
+					<NodeId>123641</NodeId>
+					<Name>ShoppingCart_jsp.Member_Show.pmember_id</Name>
+					<Type />
+					<Length>10</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp.java</FileName>
+					<Line>753</Line>
+					<Column>83</Column>
+					<NodeId>123683</NodeId>
+					<Name>ShoppingCart_jsp.Member_Show.pmember_id</Name>
+					<Type />
+					<Length>10</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp.java</FileName>
+					<Line>753</Line>
+					<Column>7</Column>
+					<NodeId>123679</NodeId>
+					<Name>ShoppingCart_jsp.Member_Show.primaryKeyParams</Name>
+					<Type />
+					<Length>16</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp.java</FileName>
+					<Line>842</Line>
+					<Column>52</Column>
+					<NodeId>124383</NodeId>
+					<Name>ShoppingCart_jsp.Member_Show.primaryKeyParams</Name>
+					<Type />
+					<Length>16</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp.java</FileName>
+					<Line>842</Line>
+					<Column>16</Column>
+					<NodeId>124376</NodeId>
+					<Name>ShoppingCart_jsp.Member_Show.out.print</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+	</Query>
+	<Query id='597' cweId='643' name='XPath_Injection' group='Java.Cx.Java_High_Risk' Severity='Information'>
+	</Query>
+	<Query id='578' cweId='79' name='GWT_Reflected_XSS' group='Java.Cx.Java_GWT' Severity='Information'>
+	</Query>
+	<Query id='1593' cweId='89' name='Client_Side_Injection' group='Java.Cx.Java_Android' Severity='Information'>
+	</Query>
+	<Query id='3605' cweId='829' name='Insecure_WebView_Usage' group='Java.Cx.Java_Android' Severity='Information'>
+	</Query>
+	<Query id='1597' cweId='359' name='Insufficient_Sensitive_Transport_Layer' group='Java.Cx.Java_Android' Severity='Information'>
+	</Query>
+	<Query id='1599' cweId='265' name='Malicious_Program' group='Java.Cx.Java_Android' Severity='Information'>
+	</Query>
+	<Query id='1601' cweId='359' name='Side_Channel_Data_Leakage' group='Java.Cx.Java_Android' Severity='Information'>
+		<Result NodeId='79403' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java' Line='112' Column='71' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='0' SimilarityId='1142757501'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>112</Line>
+					<Column>71</Column>
+					<NodeId>79403</NodeId>
+					<Name>Login_jsp.DBpassword</Name>
+					<Type />
+					<Length>10</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>112</Line>
+					<Column>48</Column>
+					<NodeId>79396</NodeId>
+					<Name>java.sql.DriverManager.getConnection</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>57</Line>
+					<Column>17</Column>
+					<NodeId>79071</NodeId>
+					<Name>Login_jsp.cn</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>57</Line>
+					<Column>7</Column>
+					<NodeId>79068</NodeId>
+					<Name>Login_jsp.dLookUp.conn1</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>58</Line>
+					<Column>15</Column>
+					<NodeId>79076</NodeId>
+					<Name>Login_jsp.dLookUp.conn1</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>58</Line>
+					<Column>36</Column>
+					<NodeId>79079</NodeId>
+					<Name>Login_jsp.dLookUp.conn1.createStatement</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>58</Line>
+					<Column>7</Column>
+					<NodeId>79075</NodeId>
+					<Name>Login_jsp.dLookUp.stat1</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>59</Line>
+					<Column>45</Column>
+					<NodeId>79090</NodeId>
+					<Name>Login_jsp.dLookUp.stat1</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>48</Line>
+					<Column>48</Column>
+					<NodeId>79023</NodeId>
+					<Name>Login_jsp.openrs.stat</Name>
+					<Type />
+					<Length>4</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>29</Column>
+					<NodeId>79031</NodeId>
+					<Name>Login_jsp.openrs.stat</Name>
+					<Type />
+					<Length>4</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>46</Column>
+					<NodeId>79034</NodeId>
+					<Name>Login_jsp.openrs.stat.executeQuery</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>24</Column>
+					<NodeId>79030</NodeId>
+					<Name>Login_jsp.openrs.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>50</Line>
+					<Column>13</Column>
+					<NodeId>79039</NodeId>
+					<Name>Login_jsp.openrs.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>59</Line>
+					<Column>43</Column>
+					<NodeId>79087</NodeId>
+					<Name>Login_jsp.openrs</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>59</Line>
+					<Column>26</Column>
+					<NodeId>79084</NodeId>
+					<Name>Login_jsp.dLookUp.rsLookUp</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>60</Line>
+					<Column>13</Column>
+					<NodeId>79107</NodeId>
+					<Name>Login_jsp.dLookUp.rsLookUp</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>66</Line>
+					<Column>20</Column>
+					<NodeId>79136</NodeId>
+					<Name>Login_jsp.dLookUp.rsLookUp</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>66</Line>
+					<Column>38</Column>
+					<NodeId>79139</NodeId>
+					<Name>Login_jsp.dLookUp.rsLookUp.getString</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>66</Line>
+					<Column>14</Column>
+					<NodeId>79135</NodeId>
+					<Name>Login_jsp.dLookUp.res</Name>
+					<Type />
+					<Length>3</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>70</Line>
+					<Column>34</Column>
+					<NodeId>79167</NodeId>
+					<Name>Login_jsp.dLookUp.res</Name>
+					<Type />
+					<Length>3</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>517</Line>
+					<Column>33</Column>
+					<NodeId>81711</NodeId>
+					<Name>Login_jsp.dLookUp</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>517</Line>
+					<Column>16</Column>
+					<NodeId>81708</NodeId>
+					<Name>Login_jsp.Login_Show.sUserID</Name>
+					<Type />
+					<Length>7</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>518</Line>
+					<Column>136</Column>
+					<NodeId>81740</NodeId>
+					<Name>Login_jsp.Login_Show.sUserID</Name>
+					<Type />
+					<Length>7</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>518</Line>
+					<Column>18</Column>
+					<NodeId>81733</NodeId>
+					<Name>Login_jsp.Login_Show.out.print</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+	</Query>
+	<Query id='662' cweId='104' name='Struts_Form_Does_Not_Extend_Validation_Class' group='Java.Cx.Java_Struts' Severity='Information'>
+	</Query>
+	<Query id='661' cweId='103' name='Struts_Incomplete_Validate_Method_Definition' group='Java.Cx.Java_Struts' Severity='Information'>
+	</Query>
+	<Query id='667' cweId='109' name='Struts_Validation_Turned_Off' group='Java.Cx.Java_Struts' Severity='Information'>
+	</Query>
+	<Query id='1670' cweId='36' name='Absolute_Path_Traversal' group='Java.Cx.Java_Medium_Threat' Severity='Information'>
+	</Query>
+	<Query id='625' cweId='79' name='CGI_Reflected_XSS_All_Clients' group='Java.Cx.Java_Medium_Threat' Severity='Information'>
+		<Result NodeId='15448' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java' Line='154' Column='37' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='0' SimilarityId='1819579219'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>37</Column>
+					<NodeId>15448</NodeId>
+					<Name>BookDetail_jsp.getParam.paramName</Name>
+					<Type />
+					<Length>9</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>36</Column>
+					<NodeId>15445</NodeId>
+					<Name>BookDetail_jsp.getParam.req.getParameter</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>12</Column>
+					<NodeId>15441</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>155</Line>
+					<Column>27</Column>
+					<NodeId>15456</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>156</Line>
+					<Column>12</Column>
+					<NodeId>15466</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>1019</Line>
+					<Column>28</Column>
+					<NodeId>20116</NodeId>
+					<Name>BookDetail_jsp.getParam</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>1019</Line>
+					<Column>9</Column>
+					<NodeId>20113</NodeId>
+					<Name>BookDetail_jsp.Rating_Show.pitem_id</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>1026</Line>
+					<Column>81</Column>
+					<NodeId>20154</NodeId>
+					<Name>BookDetail_jsp.Rating_Show.pitem_id</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>1026</Line>
+					<Column>7</Column>
+					<NodeId>20150</NodeId>
+					<Name>BookDetail_jsp.Rating_Show.primaryKeyParams</Name>
+					<Type />
+					<Length>16</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>1119</Line>
+					<Column>52</Column>
+					<NodeId>20772</NodeId>
+					<Name>BookDetail_jsp.Rating_Show.primaryKeyParams</Name>
+					<Type />
+					<Length>16</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>1119</Line>
+					<Column>16</Column>
+					<NodeId>20765</NodeId>
+					<Name>BookDetail_jsp.Rating_Show.out.print</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='15448' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java' Line='154' Column='37' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='1' SimilarityId='154377317'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>37</Column>
+					<NodeId>15448</NodeId>
+					<Name>BookDetail_jsp.getParam.paramName</Name>
+					<Type />
+					<Length>9</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>36</Column>
+					<NodeId>15445</NodeId>
+					<Name>BookDetail_jsp.getParam.req.getParameter</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>12</Column>
+					<NodeId>15441</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>155</Line>
+					<Column>27</Column>
+					<NodeId>15456</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>156</Line>
+					<Column>12</Column>
+					<NodeId>15466</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>786</Line>
+					<Column>29</Column>
+					<NodeId>18895</NodeId>
+					<Name>BookDetail_jsp.getParam</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>786</Line>
+					<Column>9</Column>
+					<NodeId>18892</NodeId>
+					<Name>BookDetail_jsp.Order_Show.porder_id</Name>
+					<Type />
+					<Length>9</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>793</Line>
+					<Column>82</Column>
+					<NodeId>18933</NodeId>
+					<Name>BookDetail_jsp.Order_Show.porder_id</Name>
+					<Type />
+					<Length>9</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>793</Line>
+					<Column>7</Column>
+					<NodeId>18929</NodeId>
+					<Name>BookDetail_jsp.Order_Show.primaryKeyParams</Name>
+					<Type />
+					<Length>16</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>858</Line>
+					<Column>52</Column>
+					<NodeId>19322</NodeId>
+					<Name>BookDetail_jsp.Order_Show.primaryKeyParams</Name>
+					<Type />
+					<Length>16</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>858</Line>
+					<Column>16</Column>
+					<NodeId>19315</NodeId>
+					<Name>BookDetail_jsp.Order_Show.out.print</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='15448' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java' Line='154' Column='37' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='2' SimilarityId='-1258281261'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>37</Column>
+					<NodeId>15448</NodeId>
+					<Name>BookDetail_jsp.getParam.paramName</Name>
+					<Type />
+					<Length>9</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>36</Column>
+					<NodeId>15445</NodeId>
+					<Name>BookDetail_jsp.getParam.req.getParameter</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>12</Column>
+					<NodeId>15441</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>155</Line>
+					<Column>27</Column>
+					<NodeId>15456</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>156</Line>
+					<Column>12</Column>
+					<NodeId>15466</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>527</Line>
+					<Column>28</Column>
+					<NodeId>17389</NodeId>
+					<Name>BookDetail_jsp.getParam</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>527</Line>
+					<Column>9</Column>
+					<NodeId>17386</NodeId>
+					<Name>BookDetail_jsp.Detail_Show.pitem_id</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>534</Line>
+					<Column>81</Column>
+					<NodeId>17427</NodeId>
+					<Name>BookDetail_jsp.Detail_Show.pitem_id</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>534</Line>
+					<Column>7</Column>
+					<NodeId>17423</NodeId>
+					<Name>BookDetail_jsp.Detail_Show.primaryKeyParams</Name>
+					<Type />
+					<Length>16</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>637</Line>
+					<Column>52</Column>
+					<NodeId>18251</NodeId>
+					<Name>BookDetail_jsp.Detail_Show.primaryKeyParams</Name>
+					<Type />
+					<Length>16</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>637</Line>
+					<Column>16</Column>
+					<NodeId>18244</NodeId>
+					<Name>BookDetail_jsp.Detail_Show.out.print</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+	</Query>
+	<Query id='626' cweId='79' name='CGI_Stored_XSS' group='Java.Cx.Java_Medium_Threat' Severity='Information'>
+		<Result NodeId='79034' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java' Line='49' Column='46' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='0' SimilarityId='-41925474'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>46</Column>
+					<NodeId>79034</NodeId>
+					<Name>Login_jsp.openrs.stat.executeQuery</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>49</Line>
+					<Column>24</Column>
+					<NodeId>79030</NodeId>
+					<Name>Login_jsp.openrs.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>50</Line>
+					<Column>13</Column>
+					<NodeId>79039</NodeId>
+					<Name>Login_jsp.openrs.rs</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>59</Line>
+					<Column>43</Column>
+					<NodeId>79087</NodeId>
+					<Name>Login_jsp.openrs</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>59</Line>
+					<Column>26</Column>
+					<NodeId>79084</NodeId>
+					<Name>Login_jsp.dLookUp.rsLookUp</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>60</Line>
+					<Column>13</Column>
+					<NodeId>79107</NodeId>
+					<Name>Login_jsp.dLookUp.rsLookUp</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>66</Line>
+					<Column>20</Column>
+					<NodeId>79136</NodeId>
+					<Name>Login_jsp.dLookUp.rsLookUp</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>66</Line>
+					<Column>38</Column>
+					<NodeId>79139</NodeId>
+					<Name>Login_jsp.dLookUp.rsLookUp.getString</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>66</Line>
+					<Column>14</Column>
+					<NodeId>79135</NodeId>
+					<Name>Login_jsp.dLookUp.res</Name>
+					<Type />
+					<Length>3</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>70</Line>
+					<Column>34</Column>
+					<NodeId>79167</NodeId>
+					<Name>Login_jsp.dLookUp.res</Name>
+					<Type />
+					<Length>3</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>517</Line>
+					<Column>33</Column>
+					<NodeId>81711</NodeId>
+					<Name>Login_jsp.dLookUp</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>517</Line>
+					<Column>16</Column>
+					<NodeId>81708</NodeId>
+					<Name>Login_jsp.Login_Show.sUserID</Name>
+					<Type />
+					<Length>7</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>518</Line>
+					<Column>136</Column>
+					<NodeId>81740</NodeId>
+					<Name>Login_jsp.Login_Show.sUserID</Name>
+					<Type />
+					<Length>7</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>518</Line>
+					<Column>18</Column>
+					<NodeId>81733</NodeId>
+					<Name>Login_jsp.Login_Show.out.print</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+	</Query>
+	<Query id='1671' cweId='319' name='Cleartext_Submission_of_Sensitive_Information' group='Java.Cx.Java_Medium_Threat' Severity='Information'>
+	</Query>
+	<Query id='627' cweId='203' name='Cross_Site_History_Manipulation' group='Java.Cx.Java_Medium_Threat' Severity='Information'>
+		<Result NodeId='2207' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp - Copy.java' Line='396' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='0' SimilarityId='-1421549125'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp - Copy.java</FileName>
+					<Line>396</Line>
+					<Column>7</Column>
+					<NodeId>2207</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='6539' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp.java' Line='396' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='1' SimilarityId='-1730533493'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp.java</FileName>
+					<Line>396</Line>
+					<Column>7</Column>
+					<NodeId>6539</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='10875' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminMenu_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='2' SimilarityId='1078023835'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminMenu_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>10875</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='13781' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdvSearch_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='3' SimilarityId='595977723'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdvSearch_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>13781</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='16805' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java' Line='394' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='4' SimilarityId='-1487000563'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>394</Line>
+					<Column>7</Column>
+					<NodeId>16805</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='23667' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookMaint_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='5' SimilarityId='-1723347429'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookMaint_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>23667</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='23834' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookMaint_jsp.java' Line='444' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='6' SimilarityId='-1793511377'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookMaint_jsp.java</FileName>
+					<Line>444</Line>
+					<Column>7</Column>
+					<NodeId>23834</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='28491' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Books_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='7' SimilarityId='1558040219'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Books_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>28491</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='33818' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CardTypesGrid_jsp - Copy.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='8' SimilarityId='-1114578065'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CardTypesGrid_jsp - Copy.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>33818</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='37103' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CardTypesGrid_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='9' SimilarityId='2047787387'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CardTypesGrid_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>37103</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='40388' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CardTypesRecord_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='10' SimilarityId='1359819739'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CardTypesRecord_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>40388</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='40533' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CardTypesRecord_jsp.java' Line='442' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='11' SimilarityId='-836197253'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CardTypesRecord_jsp.java</FileName>
+					<Line>442</Line>
+					<Column>7</Column>
+					<NodeId>40533</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='44228' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CategoriesGrid_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='12' SimilarityId='-77111875'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CategoriesGrid_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>44228</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='47746' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CategoriesRecord_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='13' SimilarityId='-1947394649'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CategoriesRecord_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>47746</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='47891' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CategoriesRecord_jsp.java' Line='442' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='14' SimilarityId='-833095173'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CategoriesRecord_jsp.java</FileName>
+					<Line>442</Line>
+					<Column>7</Column>
+					<NodeId>47891</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='51586' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Common_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='15' SimilarityId='-861597397'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Common_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>51586</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='54022' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Default_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='16' SimilarityId='119602875'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Default_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>54022</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='60346' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\EditorialCatGrid_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='17' SimilarityId='1781882263'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\EditorialCatGrid_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>60346</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='63877' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\EditorialCatRecord_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='18' SimilarityId='-2105942399'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\EditorialCatRecord_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>63877</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='64022' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\EditorialCatRecord_jsp.java' Line='442' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='19' SimilarityId='153046619'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\EditorialCatRecord_jsp.java</FileName>
+					<Line>442</Line>
+					<Column>7</Column>
+					<NodeId>64022</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='67702' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\EditorialsGrid_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='20' SimilarityId='341254877'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\EditorialsGrid_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>67702</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='71387' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\EditorialsRecord_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='21' SimilarityId='119420615'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\EditorialsRecord_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>71387</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='71532' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\EditorialsRecord_jsp.java' Line='442' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='22' SimilarityId='325186043'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\EditorialsRecord_jsp.java</FileName>
+					<Line>442</Line>
+					<Column>7</Column>
+					<NodeId>71532</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='75614' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Footer_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='23' SimilarityId='-225582645'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Footer_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>75614</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='78329' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Header_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='24' SimilarityId='2111534823'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Header_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>78329</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='81061' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='25' SimilarityId='1897786683'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>81061</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='81330' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java' Line='451' Column='13' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='26' SimilarityId='1748263607'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>451</Line>
+					<Column>13</Column>
+					<NodeId>81330</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='84474' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MembersGrid_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='27' SimilarityId='108145275'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MembersGrid_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>84474</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='88552' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MembersInfo_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='28' SimilarityId='-1863406725'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MembersInfo_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>88552</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='93482' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MembersRecord_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='29' SimilarityId='1823586203'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MembersRecord_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>93482</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='93649' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MembersRecord_jsp.java' Line='444' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='30' SimilarityId='-1723167109'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MembersRecord_jsp.java</FileName>
+					<Line>444</Line>
+					<Column>7</Column>
+					<NodeId>93649</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='98774' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MyInfo_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='31' SimilarityId='-1839423283'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MyInfo_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>98774</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='98919' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MyInfo_jsp.java' Line='442' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='32' SimilarityId='-253179877'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\MyInfo_jsp.java</FileName>
+					<Line>442</Line>
+					<Column>7</Column>
+					<NodeId>98919</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='103518' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\OrdersGrid_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='33' SimilarityId='-1139854933'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\OrdersGrid_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>103518</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='107722' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\OrdersRecord_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='34' SimilarityId='-1088866603'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\OrdersRecord_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>107722</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='107909' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\OrdersRecord_jsp.java' Line='445' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='35' SimilarityId='-809377477'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\OrdersRecord_jsp.java</FileName>
+					<Line>445</Line>
+					<Column>7</Column>
+					<NodeId>107909</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='112119' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Registration_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='36' SimilarityId='1757484303'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Registration_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>112119</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='112264' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Registration_jsp.java' Line='442' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='37' SimilarityId='481182587'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Registration_jsp.java</FileName>
+					<Line>442</Line>
+					<Column>7</Column>
+					<NodeId>112264</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='116894' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp - Copy.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='38' SimilarityId='-1358917605'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp - Copy.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>116894</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='122042' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='39' SimilarityId='-2072794831'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCart_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>122042</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='127190' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCartRecord_jsp - Copy.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='40' SimilarityId='1468195195'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCartRecord_jsp - Copy.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>127190</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='127335' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCartRecord_jsp - Copy.java' Line='442' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='41' SimilarityId='1691689449'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCartRecord_jsp - Copy.java</FileName>
+					<Line>442</Line>
+					<Column>7</Column>
+					<NodeId>127335</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='131254' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCartRecord_jsp.java' Line='399' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='42' SimilarityId='1817164111'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCartRecord_jsp.java</FileName>
+					<Line>399</Line>
+					<Column>7</Column>
+					<NodeId>131254</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='131399' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCartRecord_jsp.java' Line='442' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='43' SimilarityId='-808279077'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\ShoppingCartRecord_jsp.java</FileName>
+					<Line>442</Line>
+					<Column>7</Column>
+					<NodeId>131399</NodeId>
+					<Name>if</Name>
+					<Type />
+					<Length>2</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='81204' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java' Line='435' Column='7' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='44' SimilarityId='-1969123717'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Login_jsp.java</FileName>
+					<Line>435</Line>
+					<Column>7</Column>
+					<NodeId>81204</NodeId>
+					<Name>case</Name>
+					<Type />
+					<Length>6</Length>
+				</PathNode>
+			</Path>
+		</Result>
+	</Query>
+	<Query id='2277' cweId='98' name='Dangerous_File_Inclusion' group='Java.Cx.Java_Medium_Threat' Severity='Information'>
+	</Query>
+	<Query id='628' cweId='284' name='DB_Parameter_Tampering' group='Java.Cx.Java_Medium_Threat' Severity='Information'>
+	</Query>
+	<Query id='1698' cweId='111' name='Direct_Use_of_Unsafe_JNI' group='Java.Cx.Java_Medium_Threat' Severity='Information'>
+	</Query>
+	<Query id='629' cweId='730' name='DoS_by_Sleep' group='Java.Cx.Java_Medium_Threat' Severity='Information'>
+	</Query>
+	<Query id='1672' cweId='642' name='External_Control_of_Critical_State_Data' group='Java.Cx.Java_Medium_Threat' Severity='Information'>
+	</Query>
+	<Query id='630' cweId='15' name='External_Control_of_System_or_Config_Setting' group='Java.Cx.Java_Medium_Threat' Severity='Information'>
+	</Query>
+	<Query id='633' cweId='547' name='Hardcoded_password_in_Connection_String' group='Java.Cx.Java_Medium_Threat' Severity='Information'>
+	</Query>
+	<Query id='2343' cweId='10706' name='HttpOnlyCookies' group='Java.Cx.Java_Medium_Threat' Severity='Information'>
+	</Query>
+	<Query id='2344' cweId='10706' name='HttpOnlyCookies_In_Config' group='Java.Cx.Java_Medium_Threat' Severity='Information'>
+	</Query>
+	<Query id='634' cweId='113' name='HTTP_Response_Splitting' group='Java.Cx.Java_Medium_Threat' Severity='Information'>
+		<Result NodeId='15448' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java' Line='154' Column='37' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='0' SimilarityId='-1267455576'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>37</Column>
+					<NodeId>15448</NodeId>
+					<Name>BookDetail_jsp.getParam.paramName</Name>
+					<Type />
+					<Length>9</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>36</Column>
+					<NodeId>15445</NodeId>
+					<Name>BookDetail_jsp.getParam.req.getParameter</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>12</Column>
+					<NodeId>15441</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>155</Line>
+					<Column>27</Column>
+					<NodeId>15456</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>156</Line>
+					<Column>12</Column>
+					<NodeId>15466</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>889</Line>
+					<Column>45</Column>
+					<NodeId>19458</NodeId>
+					<Name>BookDetail_jsp.getParam</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>115</Line>
+					<Column>23</Column>
+					<NodeId>15217</NodeId>
+					<Name>BookDetail_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>117</Line>
+					<Column>10</Column>
+					<NodeId>15231</NodeId>
+					<Name>BookDetail_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>118</Line>
+					<Column>39</Column>
+					<NodeId>15250</NodeId>
+					<Name>BookDetail_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>118</Line>
+					<Column>38</Column>
+					<NodeId>15247</NodeId>
+					<Name>java.net.URLEncoder.encode</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>889</Line>
+					<Column>36</Column>
+					<NodeId>19453</NodeId>
+					<Name>BookDetail_jsp.toURL</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>889</Line>
+					<Column>7</Column>
+					<NodeId>19448</NodeId>
+					<Name>BookDetail_jsp.RatingAction.sParams</Name>
+					<Type />
+					<Length>7</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>969</Line>
+					<Column>48</Column>
+					<NodeId>19853</NodeId>
+					<Name>BookDetail_jsp.RatingAction.sParams</Name>
+					<Type />
+					<Length>7</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>969</Line>
+					<Column>29</Column>
+					<NodeId>19848</NodeId>
+					<Name>BookDetail_jsp.RatingAction.response.sendRedirect</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='15448' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java' Line='154' Column='37' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='1' SimilarityId='-1341143460'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>37</Column>
+					<NodeId>15448</NodeId>
+					<Name>BookDetail_jsp.getParam.paramName</Name>
+					<Type />
+					<Length>9</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>36</Column>
+					<NodeId>15445</NodeId>
+					<Name>BookDetail_jsp.getParam.req.getParameter</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>154</Line>
+					<Column>12</Column>
+					<NodeId>15441</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>155</Line>
+					<Column>27</Column>
+					<NodeId>15456</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>156</Line>
+					<Column>12</Column>
+					<NodeId>15466</NodeId>
+					<Name>BookDetail_jsp.getParam.param</Name>
+					<Type />
+					<Length>5</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>437</Line>
+					<Column>45</Column>
+					<NodeId>16959</NodeId>
+					<Name>BookDetail_jsp.getParam</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>115</Line>
+					<Column>23</Column>
+					<NodeId>15217</NodeId>
+					<Name>BookDetail_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>117</Line>
+					<Column>10</Column>
+					<NodeId>15231</NodeId>
+					<Name>BookDetail_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>118</Line>
+					<Column>39</Column>
+					<NodeId>15250</NodeId>
+					<Name>BookDetail_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>118</Line>
+					<Column>38</Column>
+					<NodeId>15247</NodeId>
+					<Name>java.net.URLEncoder.encode</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>437</Line>
+					<Column>36</Column>
+					<NodeId>16954</NodeId>
+					<Name>BookDetail_jsp.toURL</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>437</Line>
+					<Column>7</Column>
+					<NodeId>16949</NodeId>
+					<Name>BookDetail_jsp.DetailAction.sParams</Name>
+					<Type />
+					<Length>7</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>476</Line>
+					<Column>48</Column>
+					<NodeId>17133</NodeId>
+					<Name>BookDetail_jsp.DetailAction.sParams</Name>
+					<Type />
+					<Length>7</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>476</Line>
+					<Column>29</Column>
+					<NodeId>17128</NodeId>
+					<Name>BookDetail_jsp.DetailAction.response.sendRedirect</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='2228' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp - Copy.java' Line='397' Column='86' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='2' SimilarityId='-159170274'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp - Copy.java</FileName>
+					<Line>397</Line>
+					<Column>86</Column>
+					<NodeId>2228</NodeId>
+					<Name>AdminBooks_jsp.checkSecurity.request.getQueryString</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp - Copy.java</FileName>
+					<Line>112</Line>
+					<Column>23</Column>
+					<NodeId>554</NodeId>
+					<Name>AdminBooks_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp - Copy.java</FileName>
+					<Line>114</Line>
+					<Column>10</Column>
+					<NodeId>568</NodeId>
+					<Name>AdminBooks_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp - Copy.java</FileName>
+					<Line>115</Line>
+					<Column>39</Column>
+					<NodeId>587</NodeId>
+					<Name>AdminBooks_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp - Copy.java</FileName>
+					<Line>115</Line>
+					<Column>38</Column>
+					<NodeId>584</NodeId>
+					<Name>java.net.URLEncoder.encode</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp - Copy.java</FileName>
+					<Line>397</Line>
+					<Column>63</Column>
+					<NodeId>2222</NodeId>
+					<Name>AdminBooks_jsp.toURL</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp - Copy.java</FileName>
+					<Line>397</Line>
+					<Column>30</Column>
+					<NodeId>2213</NodeId>
+					<Name>AdminBooks_jsp.checkSecurity.response.sendRedirect</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='2239' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp - Copy.java' Line='397' Column='134' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='3' SimilarityId='840553762'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp - Copy.java</FileName>
+					<Line>397</Line>
+					<Column>134</Column>
+					<NodeId>2239</NodeId>
+					<Name>AdminBooks_jsp.checkSecurity.request.getRequestURI</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp - Copy.java</FileName>
+					<Line>112</Line>
+					<Column>23</Column>
+					<NodeId>554</NodeId>
+					<Name>AdminBooks_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp - Copy.java</FileName>
+					<Line>114</Line>
+					<Column>10</Column>
+					<NodeId>568</NodeId>
+					<Name>AdminBooks_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp - Copy.java</FileName>
+					<Line>115</Line>
+					<Column>39</Column>
+					<NodeId>587</NodeId>
+					<Name>AdminBooks_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp - Copy.java</FileName>
+					<Line>115</Line>
+					<Column>38</Column>
+					<NodeId>584</NodeId>
+					<Name>java.net.URLEncoder.encode</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp - Copy.java</FileName>
+					<Line>397</Line>
+					<Column>112</Column>
+					<NodeId>2233</NodeId>
+					<Name>AdminBooks_jsp.toURL</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp - Copy.java</FileName>
+					<Line>397</Line>
+					<Column>30</Column>
+					<NodeId>2213</NodeId>
+					<Name>AdminBooks_jsp.checkSecurity.response.sendRedirect</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='6560' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp.java' Line='397' Column='86' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='4' SimilarityId='-2002572584'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp.java</FileName>
+					<Line>397</Line>
+					<Column>86</Column>
+					<NodeId>6560</NodeId>
+					<Name>AdminBooks_jsp.checkSecurity.request.getQueryString</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp.java</FileName>
+					<Line>112</Line>
+					<Column>23</Column>
+					<NodeId>4886</NodeId>
+					<Name>AdminBooks_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp.java</FileName>
+					<Line>114</Line>
+					<Column>10</Column>
+					<NodeId>4900</NodeId>
+					<Name>AdminBooks_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp.java</FileName>
+					<Line>115</Line>
+					<Column>39</Column>
+					<NodeId>4919</NodeId>
+					<Name>AdminBooks_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp.java</FileName>
+					<Line>115</Line>
+					<Column>38</Column>
+					<NodeId>4916</NodeId>
+					<Name>java.net.URLEncoder.encode</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp.java</FileName>
+					<Line>397</Line>
+					<Column>63</Column>
+					<NodeId>6554</NodeId>
+					<Name>AdminBooks_jsp.toURL</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp.java</FileName>
+					<Line>397</Line>
+					<Column>30</Column>
+					<NodeId>6545</NodeId>
+					<Name>AdminBooks_jsp.checkSecurity.response.sendRedirect</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='6571' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp.java' Line='397' Column='134' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='5' SimilarityId='-614378668'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp.java</FileName>
+					<Line>397</Line>
+					<Column>134</Column>
+					<NodeId>6571</NodeId>
+					<Name>AdminBooks_jsp.checkSecurity.request.getRequestURI</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp.java</FileName>
+					<Line>112</Line>
+					<Column>23</Column>
+					<NodeId>4886</NodeId>
+					<Name>AdminBooks_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp.java</FileName>
+					<Line>114</Line>
+					<Column>10</Column>
+					<NodeId>4900</NodeId>
+					<Name>AdminBooks_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp.java</FileName>
+					<Line>115</Line>
+					<Column>39</Column>
+					<NodeId>4919</NodeId>
+					<Name>AdminBooks_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp.java</FileName>
+					<Line>115</Line>
+					<Column>38</Column>
+					<NodeId>4916</NodeId>
+					<Name>java.net.URLEncoder.encode</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp.java</FileName>
+					<Line>397</Line>
+					<Column>112</Column>
+					<NodeId>6565</NodeId>
+					<Name>AdminBooks_jsp.toURL</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminBooks_jsp.java</FileName>
+					<Line>397</Line>
+					<Column>30</Column>
+					<NodeId>6545</NodeId>
+					<Name>AdminBooks_jsp.checkSecurity.response.sendRedirect</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='10896' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminMenu_jsp.java' Line='400' Column='86' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='6' SimilarityId='1427617148'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminMenu_jsp.java</FileName>
+					<Line>400</Line>
+					<Column>86</Column>
+					<NodeId>10896</NodeId>
+					<Name>AdminMenu_jsp.checkSecurity.request.getQueryString</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminMenu_jsp.java</FileName>
+					<Line>115</Line>
+					<Column>23</Column>
+					<NodeId>9222</NodeId>
+					<Name>AdminMenu_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminMenu_jsp.java</FileName>
+					<Line>117</Line>
+					<Column>10</Column>
+					<NodeId>9236</NodeId>
+					<Name>AdminMenu_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminMenu_jsp.java</FileName>
+					<Line>118</Line>
+					<Column>39</Column>
+					<NodeId>9255</NodeId>
+					<Name>AdminMenu_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminMenu_jsp.java</FileName>
+					<Line>118</Line>
+					<Column>38</Column>
+					<NodeId>9252</NodeId>
+					<Name>java.net.URLEncoder.encode</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminMenu_jsp.java</FileName>
+					<Line>400</Line>
+					<Column>63</Column>
+					<NodeId>10890</NodeId>
+					<Name>AdminMenu_jsp.toURL</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminMenu_jsp.java</FileName>
+					<Line>400</Line>
+					<Column>30</Column>
+					<NodeId>10881</NodeId>
+					<Name>AdminMenu_jsp.checkSecurity.response.sendRedirect</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='10907' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminMenu_jsp.java' Line='400' Column='134' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='7' SimilarityId='502566272'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminMenu_jsp.java</FileName>
+					<Line>400</Line>
+					<Column>134</Column>
+					<NodeId>10907</NodeId>
+					<Name>AdminMenu_jsp.checkSecurity.request.getRequestURI</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminMenu_jsp.java</FileName>
+					<Line>115</Line>
+					<Column>23</Column>
+					<NodeId>9222</NodeId>
+					<Name>AdminMenu_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminMenu_jsp.java</FileName>
+					<Line>117</Line>
+					<Column>10</Column>
+					<NodeId>9236</NodeId>
+					<Name>AdminMenu_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminMenu_jsp.java</FileName>
+					<Line>118</Line>
+					<Column>39</Column>
+					<NodeId>9255</NodeId>
+					<Name>AdminMenu_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminMenu_jsp.java</FileName>
+					<Line>118</Line>
+					<Column>38</Column>
+					<NodeId>9252</NodeId>
+					<Name>java.net.URLEncoder.encode</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminMenu_jsp.java</FileName>
+					<Line>400</Line>
+					<Column>112</Column>
+					<NodeId>10901</NodeId>
+					<Name>AdminMenu_jsp.toURL</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdminMenu_jsp.java</FileName>
+					<Line>400</Line>
+					<Column>30</Column>
+					<NodeId>10881</NodeId>
+					<Name>AdminMenu_jsp.checkSecurity.response.sendRedirect</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='13802' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdvSearch_jsp.java' Line='400' Column='86' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='8' SimilarityId='26004322'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdvSearch_jsp.java</FileName>
+					<Line>400</Line>
+					<Column>86</Column>
+					<NodeId>13802</NodeId>
+					<Name>AdvSearch_jsp.checkSecurity.request.getQueryString</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdvSearch_jsp.java</FileName>
+					<Line>115</Line>
+					<Column>23</Column>
+					<NodeId>12128</NodeId>
+					<Name>AdvSearch_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdvSearch_jsp.java</FileName>
+					<Line>117</Line>
+					<Column>10</Column>
+					<NodeId>12142</NodeId>
+					<Name>AdvSearch_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdvSearch_jsp.java</FileName>
+					<Line>118</Line>
+					<Column>39</Column>
+					<NodeId>12161</NodeId>
+					<Name>AdvSearch_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdvSearch_jsp.java</FileName>
+					<Line>118</Line>
+					<Column>38</Column>
+					<NodeId>12158</NodeId>
+					<Name>java.net.URLEncoder.encode</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdvSearch_jsp.java</FileName>
+					<Line>400</Line>
+					<Column>63</Column>
+					<NodeId>13796</NodeId>
+					<Name>AdvSearch_jsp.toURL</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdvSearch_jsp.java</FileName>
+					<Line>400</Line>
+					<Column>30</Column>
+					<NodeId>13787</NodeId>
+					<Name>AdvSearch_jsp.checkSecurity.response.sendRedirect</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='13813' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdvSearch_jsp.java' Line='400' Column='134' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='9' SimilarityId='-899046554'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdvSearch_jsp.java</FileName>
+					<Line>400</Line>
+					<Column>134</Column>
+					<NodeId>13813</NodeId>
+					<Name>AdvSearch_jsp.checkSecurity.request.getRequestURI</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdvSearch_jsp.java</FileName>
+					<Line>115</Line>
+					<Column>23</Column>
+					<NodeId>12128</NodeId>
+					<Name>AdvSearch_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdvSearch_jsp.java</FileName>
+					<Line>117</Line>
+					<Column>10</Column>
+					<NodeId>12142</NodeId>
+					<Name>AdvSearch_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdvSearch_jsp.java</FileName>
+					<Line>118</Line>
+					<Column>39</Column>
+					<NodeId>12161</NodeId>
+					<Name>AdvSearch_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdvSearch_jsp.java</FileName>
+					<Line>118</Line>
+					<Column>38</Column>
+					<NodeId>12158</NodeId>
+					<Name>java.net.URLEncoder.encode</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdvSearch_jsp.java</FileName>
+					<Line>400</Line>
+					<Column>112</Column>
+					<NodeId>13807</NodeId>
+					<Name>AdvSearch_jsp.toURL</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\AdvSearch_jsp.java</FileName>
+					<Line>400</Line>
+					<Column>30</Column>
+					<NodeId>13787</NodeId>
+					<Name>AdvSearch_jsp.checkSecurity.response.sendRedirect</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='16826' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java' Line='395' Column='86' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='10' SimilarityId='-759299976'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>395</Line>
+					<Column>86</Column>
+					<NodeId>16826</NodeId>
+					<Name>BookDetail_jsp.checkSecurity.request.getQueryString</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>115</Line>
+					<Column>23</Column>
+					<NodeId>15217</NodeId>
+					<Name>BookDetail_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>117</Line>
+					<Column>10</Column>
+					<NodeId>15231</NodeId>
+					<Name>BookDetail_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>118</Line>
+					<Column>39</Column>
+					<NodeId>15250</NodeId>
+					<Name>BookDetail_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>118</Line>
+					<Column>38</Column>
+					<NodeId>15247</NodeId>
+					<Name>java.net.URLEncoder.encode</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>395</Line>
+					<Column>63</Column>
+					<NodeId>16820</NodeId>
+					<Name>BookDetail_jsp.toURL</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>395</Line>
+					<Column>30</Column>
+					<NodeId>16811</NodeId>
+					<Name>BookDetail_jsp.checkSecurity.response.sendRedirect</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='16837' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java' Line='395' Column='134' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='11' SimilarityId='628893940'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>395</Line>
+					<Column>134</Column>
+					<NodeId>16837</NodeId>
+					<Name>BookDetail_jsp.checkSecurity.request.getRequestURI</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>115</Line>
+					<Column>23</Column>
+					<NodeId>15217</NodeId>
+					<Name>BookDetail_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>117</Line>
+					<Column>10</Column>
+					<NodeId>15231</NodeId>
+					<Name>BookDetail_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>118</Line>
+					<Column>39</Column>
+					<NodeId>15250</NodeId>
+					<Name>BookDetail_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>118</Line>
+					<Column>38</Column>
+					<NodeId>15247</NodeId>
+					<Name>java.net.URLEncoder.encode</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>395</Line>
+					<Column>112</Column>
+					<NodeId>16831</NodeId>
+					<Name>BookDetail_jsp.toURL</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookDetail_jsp.java</FileName>
+					<Line>395</Line>
+					<Column>30</Column>
+					<NodeId>16811</NodeId>
+					<Name>BookDetail_jsp.checkSecurity.response.sendRedirect</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='23688' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookMaint_jsp.java' Line='400' Column='86' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='12' SimilarityId='-22758988'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookMaint_jsp.java</FileName>
+					<Line>400</Line>
+					<Column>86</Column>
+					<NodeId>23688</NodeId>
+					<Name>BookMaint_jsp.checkSecurity.request.getQueryString</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookMaint_jsp.java</FileName>
+					<Line>115</Line>
+					<Column>23</Column>
+					<NodeId>22014</NodeId>
+					<Name>BookMaint_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookMaint_jsp.java</FileName>
+					<Line>117</Line>
+					<Column>10</Column>
+					<NodeId>22028</NodeId>
+					<Name>BookMaint_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookMaint_jsp.java</FileName>
+					<Line>118</Line>
+					<Column>39</Column>
+					<NodeId>22047</NodeId>
+					<Name>BookMaint_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookMaint_jsp.java</FileName>
+					<Line>118</Line>
+					<Column>38</Column>
+					<NodeId>22044</NodeId>
+					<Name>java.net.URLEncoder.encode</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookMaint_jsp.java</FileName>
+					<Line>400</Line>
+					<Column>63</Column>
+					<NodeId>23682</NodeId>
+					<Name>BookMaint_jsp.toURL</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookMaint_jsp.java</FileName>
+					<Line>400</Line>
+					<Column>30</Column>
+					<NodeId>23673</NodeId>
+					<Name>BookMaint_jsp.checkSecurity.response.sendRedirect</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='23699' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookMaint_jsp.java' Line='400' Column='134' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='13' SimilarityId='-947809864'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookMaint_jsp.java</FileName>
+					<Line>400</Line>
+					<Column>134</Column>
+					<NodeId>23699</NodeId>
+					<Name>BookMaint_jsp.checkSecurity.request.getRequestURI</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookMaint_jsp.java</FileName>
+					<Line>115</Line>
+					<Column>23</Column>
+					<NodeId>22014</NodeId>
+					<Name>BookMaint_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookMaint_jsp.java</FileName>
+					<Line>117</Line>
+					<Column>10</Column>
+					<NodeId>22028</NodeId>
+					<Name>BookMaint_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookMaint_jsp.java</FileName>
+					<Line>118</Line>
+					<Column>39</Column>
+					<NodeId>22047</NodeId>
+					<Name>BookMaint_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookMaint_jsp.java</FileName>
+					<Line>118</Line>
+					<Column>38</Column>
+					<NodeId>22044</NodeId>
+					<Name>java.net.URLEncoder.encode</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookMaint_jsp.java</FileName>
+					<Line>400</Line>
+					<Column>112</Column>
+					<NodeId>23693</NodeId>
+					<Name>BookMaint_jsp.toURL</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\BookMaint_jsp.java</FileName>
+					<Line>400</Line>
+					<Column>30</Column>
+					<NodeId>23673</NodeId>
+					<Name>BookMaint_jsp.checkSecurity.response.sendRedirect</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='28512' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Books_jsp.java' Line='400' Column='86' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='14' SimilarityId='-179119484'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Books_jsp.java</FileName>
+					<Line>400</Line>
+					<Column>86</Column>
+					<NodeId>28512</NodeId>
+					<Name>Books_jsp.checkSecurity.request.getQueryString</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Books_jsp.java</FileName>
+					<Line>115</Line>
+					<Column>23</Column>
+					<NodeId>26838</NodeId>
+					<Name>Books_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Books_jsp.java</FileName>
+					<Line>117</Line>
+					<Column>10</Column>
+					<NodeId>26852</NodeId>
+					<Name>Books_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Books_jsp.java</FileName>
+					<Line>118</Line>
+					<Column>39</Column>
+					<NodeId>26871</NodeId>
+					<Name>Books_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Books_jsp.java</FileName>
+					<Line>118</Line>
+					<Column>38</Column>
+					<NodeId>26868</NodeId>
+					<Name>java.net.URLEncoder.encode</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Books_jsp.java</FileName>
+					<Line>400</Line>
+					<Column>63</Column>
+					<NodeId>28506</NodeId>
+					<Name>Books_jsp.toURL</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Books_jsp.java</FileName>
+					<Line>400</Line>
+					<Column>30</Column>
+					<NodeId>28497</NodeId>
+					<Name>Books_jsp.checkSecurity.response.sendRedirect</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='28523' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Books_jsp.java' Line='400' Column='134' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='15' SimilarityId='1732531336'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Books_jsp.java</FileName>
+					<Line>400</Line>
+					<Column>134</Column>
+					<NodeId>28523</NodeId>
+					<Name>Books_jsp.checkSecurity.request.getRequestURI</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Books_jsp.java</FileName>
+					<Line>115</Line>
+					<Column>23</Column>
+					<NodeId>26838</NodeId>
+					<Name>Books_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Books_jsp.java</FileName>
+					<Line>117</Line>
+					<Column>10</Column>
+					<NodeId>26852</NodeId>
+					<Name>Books_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Books_jsp.java</FileName>
+					<Line>118</Line>
+					<Column>39</Column>
+					<NodeId>26871</NodeId>
+					<Name>Books_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Books_jsp.java</FileName>
+					<Line>118</Line>
+					<Column>38</Column>
+					<NodeId>26868</NodeId>
+					<Name>java.net.URLEncoder.encode</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Books_jsp.java</FileName>
+					<Line>400</Line>
+					<Column>112</Column>
+					<NodeId>28517</NodeId>
+					<Name>Books_jsp.toURL</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\Books_jsp.java</FileName>
+					<Line>400</Line>
+					<Column>30</Column>
+					<NodeId>28497</NodeId>
+					<Name>Books_jsp.checkSecurity.response.sendRedirect</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='33839' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CardTypesGrid_jsp - Copy.java' Line='400' Column='86' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='16' SimilarityId='1162768600'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CardTypesGrid_jsp - Copy.java</FileName>
+					<Line>400</Line>
+					<Column>86</Column>
+					<NodeId>33839</NodeId>
+					<Name>CardTypesGrid_jsp.checkSecurity.request.getQueryString</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CardTypesGrid_jsp - Copy.java</FileName>
+					<Line>115</Line>
+					<Column>23</Column>
+					<NodeId>32165</NodeId>
+					<Name>CardTypesGrid_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CardTypesGrid_jsp - Copy.java</FileName>
+					<Line>117</Line>
+					<Column>10</Column>
+					<NodeId>32179</NodeId>
+					<Name>CardTypesGrid_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CardTypesGrid_jsp - Copy.java</FileName>
+					<Line>118</Line>
+					<Column>39</Column>
+					<NodeId>32198</NodeId>
+					<Name>CardTypesGrid_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CardTypesGrid_jsp - Copy.java</FileName>
+					<Line>118</Line>
+					<Column>38</Column>
+					<NodeId>32195</NodeId>
+					<Name>java.net.URLEncoder.encode</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CardTypesGrid_jsp - Copy.java</FileName>
+					<Line>400</Line>
+					<Column>63</Column>
+					<NodeId>33833</NodeId>
+					<Name>CardTypesGrid_jsp.toURL</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CardTypesGrid_jsp - Copy.java</FileName>
+					<Line>400</Line>
+					<Column>30</Column>
+					<NodeId>33824</NodeId>
+					<Name>CardTypesGrid_jsp.checkSecurity.response.sendRedirect</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='33850' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CardTypesGrid_jsp - Copy.java' Line='400' Column='134' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' DeepLink=''>
+			<Path ResultId='1' PathId='17' SimilarityId='-1656672684'>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CardTypesGrid_jsp - Copy.java</FileName>
+					<Line>400</Line>
+					<Column>134</Column>
+					<NodeId>33850</NodeId>
+					<Name>CardTypesGrid_jsp.checkSecurity.request.getRequestURI</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CardTypesGrid_jsp - Copy.java</FileName>
+					<Line>115</Line>
+					<Column>23</Column>
+					<NodeId>32165</NodeId>
+					<Name>CardTypesGrid_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CardTypesGrid_jsp - Copy.java</FileName>
+					<Line>117</Line>
+					<Column>10</Column>
+					<NodeId>32179</NodeId>
+					<Name>CardTypesGrid_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CardTypesGrid_jsp - Copy.java</FileName>
+					<Line>118</Line>
+					<Column>39</Column>
+					<NodeId>32198</NodeId>
+					<Name>CardTypesGrid_jsp.toURL.strValue</Name>
+					<Type />
+					<Length>8</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CardTypesGrid_jsp - Copy.java</FileName>
+					<Line>118</Line>
+					<Column>38</Column>
+					<NodeId>32195</NodeId>
+					<Name>java.net.URLEncoder.encode</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CardTypesGrid_jsp - Copy.java</FileName>
+					<Line>400</Line>
+					<Column>112</Column>
+					<NodeId>33844</NodeId>
+					<Name>CardTypesGrid_jsp.toURL</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+				<PathNode>
+					<FileName>\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CardTypesGrid_jsp - Copy.java</FileName>
+					<Line>400</Line>
+					<Column>30</Column>
+					<NodeId>33824</NodeId>
+					<Name>CardTypesGrid_jsp.checkSecurity.response.sendRedirect</Name>
+					<Type />
+					<Length>1</Length>
+				</PathNode>
+			</Path>
+		</Result>
+		<Result NodeId='37124' FileName='\\10.31.0.16\qa\Projects_new\Java\1_Under_70k\BookStoreJava_21403_lines\CardTypesGrid_jsp.java' Line='400' Column='86' FalsePositive='False' Severity='Information' AssignToUser='' state='0' Remark='' Deep                                                                                                                                                                È(|÷     œ{÷          firewall                                        
