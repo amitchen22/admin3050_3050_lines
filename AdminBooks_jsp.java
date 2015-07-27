@@ -21,6 +21,7 @@ public class AdminBooks_jsp extends HttpJspBase {
   static final String appPath   ="/";
 
 //Database connection string
+//test
 
   static final String DBDriver  ="";
   static final String strConn   ="";
